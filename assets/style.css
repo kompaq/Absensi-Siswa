@@ -1,0 +1,164 @@
+body {
+  background-color: #99e6ff;
+  position: relative;
+  -webkit-animation-name: example;
+  -webkit-animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: example;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes example {
+  0% {
+    background-color: #99e6ff;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: #ffdd99;
+    left: 0px;
+    top: 0px;
+  }
+  50% {
+    background-color: #c2c2d6;
+    left: 0px;
+    top: 0px;
+  }
+  75% {
+    background-color: #d6d6c2;
+    left: 0px;
+    top: 0px;
+  }
+  100% {
+    background-color: #99e6ff;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes example {
+  0% {
+    background-color: #99e6ff;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: #ffdd99;
+    left: 0px;
+    top: 0px;
+  }
+  50% {
+    background-color: #c2c2d6;
+    left: 0px;
+    top: 0px;
+  }
+  75% {
+    background-color: #d6d6c2;
+    left: 0px;
+    top: 0px;
+  }
+  100% {
+    background-color: #99e6ff;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+img {
+  width: 50%;
+  margin: auto;
+}
+
+.modal-content {
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.break {
+  margin-top: 15px;
+}
+input[type="text"],
+input[type="password"] {
+  background: transparent;
+  border-bottom: 1px solid gray;
+}
+
+.tombol {
+  background-color: #00bfff;
+  position: relative;
+  -webkit-animation-name: mytombol;
+  -webkit-animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: mytombol;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes mytombol {
+  0% {
+    background-color: #00bfff;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: #ffaa00;
+    left: 0px;
+    top: 0px;
+  }
+  50% {
+    background-color: #666699;
+    left: 0px;
+    top: 0px;
+  }
+  75% {
+    background-color: #999966;
+    left: 0px;
+    top: 0px;
+  }
+  100% {
+    background-color: #00bfff;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes mytombol {
+  0% {
+    background-color: #00bfff;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: #ffaa00;
+    left: 0px;
+    top: 0px;
+  }
+  50% {
+    background-color: #666699;
+    left: 0px;
+    top: 0px;
+  }
+  75% {
+    background-color: #999966;
+    left: 0px;
+    top: 0px;
+  }
+  100% {
+    background-color: #00bfff;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.w3-btn:hover {
+  box-shadow: none;
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #000000;
+  font-weight: bold;
+}
